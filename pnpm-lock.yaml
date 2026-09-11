@@ -47,6 +47,12 @@ importers:
       '@monaco-editor/react':
         specifier: ^4.7.0
         version: 4.7.0(monaco-editor@0.55.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@nanostores/persistent':
+        specifier: ^1.3.5
+        version: 1.3.5(nanostores@1.5.3)
+      '@nanostores/react':
+        specifier: ^2.0.1
+        version: 2.0.1(nanostores@1.5.3)(react@19.2.8)
       '@octokit/rest':
         specifier: ^22.0.1
         version: 22.0.1
@@ -116,6 +122,9 @@ importers:
       monaco-editor:
         specifier: ^0.55.1
         version: 0.55.1
+      nanostores:
+        specifier: ^1.5.3
+        version: 1.5.3
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -158,13 +167,16 @@ importers:
       xterm-addon-fit:
         specifier: ^0.8.0
         version: 0.8.0(xterm@5.3.0)
+      zod:
+        specifier: ^4.6.1
+        version: 4.6.2
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^5.2.1
         version: 5.2.1(storybook@10.5.6(@types/react@19.2.17)(react@19.2.8))
       '@modelcontextprotocol/sdk':
         specifier: ^1.29.0
-        version: 1.30.0(zod@3.25.76)
+        version: 1.30.0(zod@4.6.2)
       '@storybook-astro/framework':
         specifier: ^1.9.0
         version: 1.10.0(@astrojs/react@4.4.2(@types/node@26.1.2)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(jiti@2.7.0)(lightningcss@1.32.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(yaml@2.9.0))(@storybook/react@10.5.6(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.6(@types/react@19.2.17)(react@19.2.8))(typescript@5.9.3))(astro@5.18.2(@netlify/blobs@10.7.10)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(storybook@10.5.6(@types/react@19.2.17)(react@19.2.8))(vite@6.4.3(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
@@ -1579,6 +1591,19 @@ packages:
       monaco-editor: '>= 0.25.0 < 1'
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  '@nanostores/persistent@1.3.5':
+    resolution: {integrity: sha512-CNdhro3jEzNdPpPImIltnPpDKp5vxYmomHlZI7EMNoAxddImx97djxXDdPd2HIC4UczzUUMk7AMWCfMpFJHUsw==}
+    engines: {node: ^20.0.0 || >=22.0.0}
+    peerDependencies:
+      nanostores: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^1.0.0
+
+  '@nanostores/react@2.0.1':
+    resolution: {integrity: sha512-txbZTd+7/hnO7FhtF8Pmr+cu0ThdCuCnOyEEh0DsEM2Hp9PfOa5EY4uj3wpZpypSzp5BuqDgf2AxVAKoUIWOFQ==}
+    engines: {node: ^22.0.0 || ^24.0.0 || >=26.0.0}
+    peerDependencies:
+      nanostores: ^1.2.0
+      react: '>=18.0.0'
 
   '@napi-rs/wasm-runtime@1.2.2':
     resolution: {integrity: sha512-JfB4kuJQjaoHuCTseIINHtHWeJnvgEcxjwA5t/Y00ZgaOO1Crz3fjT/p8kT28zA/Caz7oiUMn3d6H2yOVCVwuw==}
@@ -6124,6 +6149,10 @@ packages:
   nanospinner@1.2.2:
     resolution: {integrity: sha512-Zt/AmG6qRU3e+WnzGGLuMCEAO/dAu45stNbHY223tUxldaDAeE+FxSPsd9Q+j+paejmm0ZbrNVs5Sraqy3dRxA==}
 
+  nanostores@1.5.3:
+    resolution: {integrity: sha512-rQLB6eV4f2AW/n3L0JmwCROpaisYy9EDEADvEFSd1C/qG8hB6O5TPlh9A791JRbJr4CnMQBzptDcvD9OR1+6WA==}
+    engines: {node: ^20.0.0 || >=22.0.0}
+
   negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
@@ -8309,8 +8338,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.2:
+    resolution: {integrity: sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ==}
 
   zustand@4.5.7:
     resolution: {integrity: sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw==}
@@ -8467,7 +8496,7 @@ snapshots:
     dependencies:
       sitemap: 9.0.1
       stream-replace-string: 2.0.0
-      zod: 4.4.3
+      zod: 4.6.2
 
   '@astrojs/telemetry@3.3.0':
     dependencies:
@@ -9549,6 +9578,28 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@modelcontextprotocol/sdk@1.30.0(zod@4.6.2)':
+    dependencies:
+      '@hono/node-server': 2.0.12(hono@4.12.32)
+      ajv: 8.20.0
+      ajv-formats: 3.0.1(ajv@8.20.0)
+      content-type: 1.0.5
+      cors: 2.8.6
+      cross-spawn: 7.0.6
+      eventsource: 3.0.7
+      eventsource-parser: 3.1.0
+      express: 5.2.1
+      express-rate-limit: 8.6.1(express@5.2.1)
+      hono: 4.12.32
+      jose: 6.2.4
+      json-schema-typed: 8.0.2
+      pkce-challenge: 5.0.1
+      raw-body: 3.0.2
+      zod: 4.6.2
+      zod-to-json-schema: 3.25.2(zod@4.6.2)
+    transitivePeerDependencies:
+      - supports-color
+
   '@monaco-editor/loader@1.7.0':
     dependencies:
       state-local: 1.0.7
@@ -9559,6 +9610,15 @@ snapshots:
       monaco-editor: 0.55.1
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
+
+  '@nanostores/persistent@1.3.5(nanostores@1.5.3)':
+    dependencies:
+      nanostores: 1.5.3
+
+  '@nanostores/react@2.0.1(nanostores@1.5.3)(react@19.2.8)':
+    dependencies:
+      nanostores: 1.5.3
+      react: 19.2.8
 
   '@napi-rs/wasm-runtime@1.2.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
     dependencies:
@@ -9721,7 +9781,7 @@ snapshots:
       validate-npm-package-name: 5.0.1
       yaml: 2.9.0
       yargs: 17.7.3
-      zod: 4.4.3
+      zod: 4.6.2
 
   '@netlify/config@25.1.1':
     dependencies:
@@ -9749,7 +9809,7 @@ snapshots:
       validate-npm-package-name: 5.0.1
       yaml: 2.9.0
       yargs: 17.7.3
-      zod: 4.4.3
+      zod: 4.6.2
 
   '@netlify/database-dev@0.10.1':
     dependencies:
@@ -14925,6 +14985,8 @@ snapshots:
     dependencies:
       picocolors: 1.1.1
 
+  nanostores@1.5.3: {}
+
   negotiator@0.6.3: {}
 
   negotiator@1.0.0: {}
@@ -17450,6 +17512,10 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
+  zod-to-json-schema@3.25.2(zod@4.6.2):
+    dependencies:
+      zod: 4.6.2
+
   zod-to-ts@1.2.0(typescript@5.9.3)(zod@3.25.76):
     dependencies:
       typescript: 5.9.3
@@ -17457,7 +17523,7 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.4.3: {}
+  zod@4.6.2: {}
 
   zustand@4.5.7(@types/react@19.2.17)(react@19.2.8):
     dependencies:

@@ -215,7 +215,42 @@ void main(void) {
     gl_FragColor = vec4(destColor, 1.0);
 }`;
 
+// Original GLSL interpretation for Drippy — the exact source .qtz math
+// wasn't recoverable from the shipped product folders (its listed patches,
+// Moire1.qtz + OpArtSeries1-5.qtz, don't match any remaining fragment.metal
+// comment 1:1), so this is a domain-warped ink/liquid flow built to match
+// the shipped icon's teal swirl look, not a byte-for-byte port like the rest.
+export const DRIPPY_SHADER = `${HEADER}
+
+${HSV2RGB}
+
+vec2 warpDrip(vec2 p, float t) {
+    p += 0.3 * vec2(sin(p.y * 2.0 + t), cos(p.x * 2.0 - t * 0.8));
+    p += 0.15 * vec2(sin(p.y * 5.0 - t * 1.4 + mouse.x * 3.0), cos(p.x * 5.0 + t * 1.1));
+    return p;
+}
+
+void main(void) {
+    float colorMagnitude = 0.5 + 0.5 * sin(time * 0.3);
+
+    vec2 p = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);
+    float t = time * (0.6 + mouse.y * 0.4);
+
+    vec2 warped = warpDrip(p, t);
+    float r = length(warped);
+    float rings = sin(r * 8.0 - t * 2.0);
+    float ink = smoothstep(0.0, 1.0, 0.5 + 0.5 * rings);
+
+    vec3 base = mix(vec3(0.02, 0.05, 0.08), vec3(0.1, 0.7, 0.75), ink);
+    vec3 hueOverlay = hsv2rgb(vec3(fract(0.5 + time * 0.04 + colorMagnitude * 0.3), 0.6, 1.0));
+    vec3 color = mix(base, base * hueOverlay * 1.4, clamp(colorMagnitude, 0.0, 1.0) * 0.4);
+
+    color *= 0.85;
+    gl_FragColor = vec4(color, 1.0);
+}`;
+
 export const CATALOG_SHADERS: Record<string, string> = {
+  drippy: DRIPPY_SHADER,
   grid: GRID_SHADER,
   spiral: SPIRAL_SHADER,
   hypno: HYPNO_SHADER,
