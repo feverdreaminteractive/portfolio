@@ -257,7 +257,7 @@ export default function StackAuditor() {
   return (
     <div className="min-h-[80vh] px-4 sm:px-6 lg:px-8 py-8">
       <div className="text-center mb-10 max-w-2xl mx-auto">
-        <p className="text-xs uppercase tracking-[0.2em] text-purple-400 mb-3">Martech Stack Auditor</p>
+        <p className="text-xs uppercase tracking-[0.2em] text-purple-400 mb-3">Martech StackAuditor</p>
         <h1 className="text-3xl lg:text-4xl font-light text-white mb-2">What's actually running on that site?</h1>
         <p className="text-gray-400 font-light">
           Paste a URL. I'll detect the martech stack and have an AI marketing ops architect read it — gaps,
