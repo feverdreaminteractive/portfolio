@@ -5,6 +5,7 @@ import { getNavClearance } from './useDraggablePosition';
 interface PreviewPanelProps {
   canvasRef: RefObject<HTMLCanvasElement | null>;
   performMode: boolean;
+  defaultSize?: { width: number; height: number };
 }
 
 const MIN_WIDTH = 240;
@@ -30,10 +31,10 @@ function clamp(value: number, min: number, max: number) {
 // dragging the top-left corner handle resizes by growing toward that corner
 // while shifting left/top so the opposite (bottom-right) corner visually
 // stays put, matching the old anchored-resize feel.
-export default function PreviewPanel({ canvasRef, performMode }: PreviewPanelProps) {
-  const [size, setSize] = useState(DEFAULT_SIZE);
+export default function PreviewPanel({ canvasRef, performMode, defaultSize = DEFAULT_SIZE }: PreviewPanelProps) {
+  const [size, setSize] = useState(defaultSize);
   const [position, setPosition] = useState(() => ({
-    left: window.innerWidth - MARGIN - DEFAULT_SIZE.width,
+    left: window.innerWidth - MARGIN - defaultSize.width,
     top: getNavClearance() + MARGIN,
   }));
   const resizeState = useRef<{

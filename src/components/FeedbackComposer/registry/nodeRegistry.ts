@@ -1,4 +1,5 @@
 import { SOURCE_FIT_FRAGMENT_SHADER, GENERATIVE_FRAGMENT_SHADER, COLOR_FRAGMENT_SHADER } from './shaders/sources';
+import { OP_ART_FRAGMENT_SHADER } from './shaders/opart';
 import { FEEDBACK_FRAGMENT_SHADER, FEEDBACK_DEFAULTS } from './shaders/feedback';
 import {
   HUE_COLOR_FRAGMENT_SHADER,
@@ -143,6 +144,22 @@ export const NODE_REGISTRY: Record<string, NodeDef> = {
       { key: 'b', label: 'B', type: 'float', min: 0, max: 1, step: 0.01, default: 0.5 },
     ],
     fragmentSource: COLOR_FRAGMENT_SHADER,
+  },
+  opArt: {
+    key: 'opArt',
+    label: 'Op Art',
+    category: 'source',
+    inputs: [],
+    hasOutput: true,
+    params: [
+      { key: 'a', label: 'A', type: 'float', min: -1, max: 1, step: 0.01, default: 0.15 },
+      { key: 'b', label: 'B', type: 'float', min: -3.14, max: 3.14, step: 0.01, default: 0 },
+      { key: 'c', label: 'C', type: 'float', min: -3.14, max: 3.14, step: 0.01, default: 0 },
+      { key: 'd', label: 'D', type: 'float', min: -3.14, max: 3.14, step: 0.01, default: 0 },
+      { key: 'e', label: 'E', type: 'float', min: -3.14, max: 3.14, step: 0.01, default: 0 },
+      { key: 'f', label: 'F', type: 'float', min: 0, max: 6.28, step: 0.01, default: 0 },
+    ],
+    fragmentSource: OP_ART_FRAGMENT_SHADER,
   },
   feedback: {
     key: 'feedback',

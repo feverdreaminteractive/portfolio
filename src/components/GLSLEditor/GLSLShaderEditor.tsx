@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useState, useRef } from 'react';
 import { Play, Pause, RotateCcw, Download, Sparkles, Loader2 } from 'lucide-react';
-import { DEFAULT_SHADER } from '../../shaders/default-shader';
+import { AUDIO_COLORS_SHADER } from '../../shaders/audio-colors-shader';
 
 interface GLSLShaderEditorProps {
   aiTeamEndpoint?: string;
 }
 
 const GLSLShaderEditor = ({ aiTeamEndpoint = '/.netlify/functions/ai-shader' }: GLSLShaderEditorProps) => {
-  const [code, setCode] = useState(DEFAULT_SHADER);
+  const [code, setCode] = useState(AUDIO_COLORS_SHADER);
   const [error, setError] = useState<string | null>(null);
   const [isPlaying, setIsPlaying] = useState(true);
   const [mousePos, setMousePos] = useState({ x: 0.5, y: 0.5 });

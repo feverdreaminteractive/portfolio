@@ -549,6 +549,17 @@ export class CompositorEngine {
     runtime.videoEl = undefined;
   }
 
+  // ---- live param nudging -------------------------------------------------
+
+  // Mutates a running node's param directly, bypassing update()'s graph-shape
+  // diffing -- renderNode() reads runtime.params fresh every frame, so this
+  // takes effect on the very next frame. For driving a node's uniforms from
+  // an external live signal (e.g. audio) rather than the UI's param sliders.
+  setLiveParam(nodeId: string, key: string, value: number | string) {
+    const runtime = this.nodeRuntimes.get(nodeId);
+    if (runtime) runtime.params[key] = value;
+  }
+
   // ---- feedback reset -----------------------------------------------------
 
   resetFeedback(nodeId?: string) {
