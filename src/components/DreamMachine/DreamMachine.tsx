@@ -6,7 +6,7 @@ import { TransportControls } from './TransportControls';
 import { KitSidebar } from './KitSidebar';
 import { ReactiveVibeWindow, type ReactiveVibeWindowHandle } from './ReactiveVibeWindow';
 
-export default function DrumMachine() {
+export default function DreamMachine() {
   const [pattern, setPattern] = useState(createDefaultPattern);
   const [bpm, setBpm] = useState(120);
   const [kitId, setKitId] = useState(DEFAULT_KIT_ID);
