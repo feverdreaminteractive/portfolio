@@ -1,0 +1,473 @@
+{
+ "frames": {
+  "dog_chained_idle_00": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 247,
+    "h": 147
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 44,
+    "w": 247,
+    "h": 147
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_idle_01": {
+   "frame": {
+    "x": 304,
+    "y": 2,
+    "w": 248,
+    "h": 155
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 52,
+    "y": 36,
+    "w": 248,
+    "h": 155
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark1_00": {
+   "frame": {
+    "x": 606,
+    "y": 2,
+    "w": 217,
+    "h": 148
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 83,
+    "y": 43,
+    "w": 217,
+    "h": 148
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark1_01": {
+   "frame": {
+    "x": 908,
+    "y": 2,
+    "w": 257,
+    "h": 150
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 43,
+    "y": 41,
+    "w": 257,
+    "h": 150
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark2_00": {
+   "frame": {
+    "x": 1210,
+    "y": 2,
+    "w": 253,
+    "h": 150
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 47,
+    "y": 41,
+    "w": 253,
+    "h": 150
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark2_01": {
+   "frame": {
+    "x": 1512,
+    "y": 2,
+    "w": 264,
+    "h": 154
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 36,
+    "y": 37,
+    "w": 264,
+    "h": 154
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark3_00": {
+   "frame": {
+    "x": 2,
+    "y": 195,
+    "w": 300,
+    "h": 191
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 300,
+    "h": 191
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_bark3_01": {
+   "frame": {
+    "x": 304,
+    "y": 195,
+    "w": 248,
+    "h": 159
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 52,
+    "y": 32,
+    "w": 248,
+    "h": 159
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_snarl_00": {
+   "frame": {
+    "x": 606,
+    "y": 195,
+    "w": 207,
+    "h": 147
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 93,
+    "y": 44,
+    "w": 207,
+    "h": 147
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_snarl_01": {
+   "frame": {
+    "x": 908,
+    "y": 195,
+    "w": 218,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 82,
+    "y": 47,
+    "w": 218,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_lunge_00": {
+   "frame": {
+    "x": 1210,
+    "y": 195,
+    "w": 267,
+    "h": 152
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 33,
+    "y": 39,
+    "w": 267,
+    "h": 152
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_lunge_01": {
+   "frame": {
+    "x": 1512,
+    "y": 195,
+    "w": 257,
+    "h": 138
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 43,
+    "y": 53,
+    "w": 257,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_pace_00": {
+   "frame": {
+    "x": 2,
+    "y": 388,
+    "w": 230,
+    "h": 153
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 70,
+    "y": 38,
+    "w": 230,
+    "h": 153
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_pace_01": {
+   "frame": {
+    "x": 304,
+    "y": 388,
+    "w": 212,
+    "h": 147
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 88,
+    "y": 44,
+    "w": 212,
+    "h": 147
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_pace_02": {
+   "frame": {
+    "x": 606,
+    "y": 388,
+    "w": 192,
+    "h": 154
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 108,
+    "y": 37,
+    "w": 192,
+    "h": 154
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_pace_03": {
+   "frame": {
+    "x": 908,
+    "y": 388,
+    "w": 199,
+    "h": 154
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 101,
+    "y": 37,
+    "w": 199,
+    "h": 154
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_strain_00": {
+   "frame": {
+    "x": 1210,
+    "y": 388,
+    "w": 241,
+    "h": 163
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 59,
+    "y": 28,
+    "w": 241,
+    "h": 163
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_strain_01": {
+   "frame": {
+    "x": 1512,
+    "y": 388,
+    "w": 289,
+    "h": 159
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 11,
+    "y": 32,
+    "w": 289,
+    "h": 159
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_hit_00": {
+   "frame": {
+    "x": 2,
+    "y": 581,
+    "w": 288,
+    "h": 167
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 12,
+    "y": 24,
+    "w": 288,
+    "h": 167
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_angry_00": {
+   "frame": {
+    "x": 304,
+    "y": 581,
+    "w": 261,
+    "h": 161
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 39,
+    "y": 30,
+    "w": 261,
+    "h": 161
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_angry_01": {
+   "frame": {
+    "x": 606,
+    "y": 581,
+    "w": 276,
+    "h": 165
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 24,
+    "y": 26,
+    "w": 276,
+    "h": 165
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_rest_00": {
+   "frame": {
+    "x": 908,
+    "y": 581,
+    "w": 257,
+    "h": 164
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 43,
+    "y": 27,
+    "w": 257,
+    "h": 164
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  },
+  "dog_chained_rest_01": {
+   "frame": {
+    "x": 1210,
+    "y": 581,
+    "w": 267,
+    "h": 159
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 33,
+    "y": 32,
+    "w": 267,
+    "h": 159
+   },
+   "sourceSize": {
+    "w": 300,
+    "h": 191
+   }
+  }
+ },
+ "meta": {
+  "image": "dog_chained_atlas.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1814,
+   "h": 774
+  },
+  "scale": "1"
+ }
+}
