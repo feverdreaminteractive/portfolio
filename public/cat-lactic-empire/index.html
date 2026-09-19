@@ -6,12 +6,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>CatLactic Empire</title>
-    <script type="module" crossorigin src="/cat-lactic-empire/assets/index-CXG87z8G.js"></script>
+
+    <meta name="description" content="Princess Miyu of the Galaxia Empire is hiding on Earth. Keep her boredom low and her cover intact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CatLactic Empire" />
+    <meta property="og:description" content="Princess Miyu of the Galaxia Empire is hiding on Earth. Keep her boredom low and her cover intact." />
+    <meta property="og:image" content="https://ryanclayton.io/cat-lactic-empire/og-image.jpg" />
+    <meta property="og:url" content="https://ryanclayton.io/cat-lactic-empire/index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CatLactic Empire" />
+    <meta name="twitter:description" content="Princess Miyu of the Galaxia Empire is hiding on Earth. Keep her boredom low and her cover intact." />
+    <meta name="twitter:image" content="https://ryanclayton.io/cat-lactic-empire/og-image.jpg" />
+    <script type="module" crossorigin src="/cat-lactic-empire/assets/index-C8aEvzig.js"></script>
   </head>
   <body>
     <div id="app"></div>
-    <style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#000;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden;}canvas{image-rendering:pixelated;}</style>
+    <div id="rotate-overlay">
+      <div class="rotate-icon">&#128260;</div>
+      <div>Rotate your device to play</div>
+    </div>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      html, body { overscroll-behavior: none; }
+      body {
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        height: 100dvh;
+        overflow: hidden;
+        touch-action: none;
+      }
+      canvas { image-rendering: pixelated; touch-action: none; }
+      #rotate-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        background: #000814;
+        color: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        font-family: 'Press Start 2P', monospace;
+        font-size: 14px;
+        text-align: center;
+        padding: 24px;
+      }
+      #rotate-overlay.show { display: flex; }
+      #rotate-overlay .rotate-icon { font-size: 48px; animation: rotate-hint 1.6s ease-in-out infinite; }
+      @keyframes rotate-hint {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(90deg); }
+      }
+    </style>
+    <script>
+      // Touch devices (iPhone/iPad, etc.) only -- the game is landscape-only
+      // there since there's no keyboard and the whole layout assumes a wide
+      // canvas. Desktop/mouse users are unaffected regardless of window shape.
+      (function () {
+        var isTouch = navigator.maxTouchPoints > 0 || 'ontouchstart' in window
+        if (!isTouch) return
+        var overlay = document.getElementById('rotate-overlay')
+        function check() {
+          var portrait = window.innerHeight > window.innerWidth
+          overlay.classList.toggle('show', portrait)
+        }
+        check()
+        window.addEventListener('resize', check)
+        window.addEventListener('orientationchange', check)
+      })()
+    </script>
   </body>
 </html>
