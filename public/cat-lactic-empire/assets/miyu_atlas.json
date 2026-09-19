@@ -1,0 +1,773 @@
+{
+ "frames": {
+  "miyu_idle_00": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 117,
+    "h": 161
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 54,
+    "y": 60,
+    "w": 117,
+    "h": 161
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_idle_01": {
+   "frame": {
+    "x": 229,
+    "y": 2,
+    "w": 97,
+    "h": 161
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 64,
+    "y": 60,
+    "w": 97,
+    "h": 161
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_idle_02": {
+   "frame": {
+    "x": 456,
+    "y": 2,
+    "w": 109,
+    "h": 161
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 58,
+    "y": 60,
+    "w": 109,
+    "h": 161
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_idle_03": {
+   "frame": {
+    "x": 683,
+    "y": 2,
+    "w": 92,
+    "h": 169
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 66,
+    "y": 52,
+    "w": 92,
+    "h": 169
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_walk_00": {
+   "frame": {
+    "x": 910,
+    "y": 2,
+    "w": 135,
+    "h": 159
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 45,
+    "y": 62,
+    "w": 135,
+    "h": 159
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_walk_01": {
+   "frame": {
+    "x": 1137,
+    "y": 2,
+    "w": 109,
+    "h": 141
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 58,
+    "y": 80,
+    "w": 109,
+    "h": 141
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_walk_02": {
+   "frame": {
+    "x": 1364,
+    "y": 2,
+    "w": 132,
+    "h": 173
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 46,
+    "y": 48,
+    "w": 132,
+    "h": 173
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_walk_03": {
+   "frame": {
+    "x": 1591,
+    "y": 2,
+    "w": 134,
+    "h": 134
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 45,
+    "y": 87,
+    "w": 134,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_run_00": {
+   "frame": {
+    "x": 2,
+    "y": 225,
+    "w": 162,
+    "h": 145
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 31,
+    "y": 76,
+    "w": 162,
+    "h": 145
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_run_01": {
+   "frame": {
+    "x": 229,
+    "y": 225,
+    "w": 175,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 25,
+    "y": 85,
+    "w": 175,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_run_02": {
+   "frame": {
+    "x": 456,
+    "y": 225,
+    "w": 132,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 46,
+    "y": 93,
+    "w": 132,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_jump_00": {
+   "frame": {
+    "x": 683,
+    "y": 225,
+    "w": 118,
+    "h": 123
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 98,
+    "w": 118,
+    "h": 123
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_jump_01": {
+   "frame": {
+    "x": 910,
+    "y": 225,
+    "w": 127,
+    "h": 124
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 49,
+    "y": 97,
+    "w": 127,
+    "h": 124
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_jump_02": {
+   "frame": {
+    "x": 1137,
+    "y": 225,
+    "w": 161,
+    "h": 109
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 32,
+    "y": 112,
+    "w": 161,
+    "h": 109
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_land_00": {
+   "frame": {
+    "x": 1364,
+    "y": 225,
+    "w": 124,
+    "h": 115
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 50,
+    "y": 106,
+    "w": 124,
+    "h": 115
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_land_01": {
+   "frame": {
+    "x": 1591,
+    "y": 225,
+    "w": 141,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 42,
+    "y": 75,
+    "w": 141,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_land_02": {
+   "frame": {
+    "x": 2,
+    "y": 448,
+    "w": 225,
+    "h": 174
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 47,
+    "w": 225,
+    "h": 174
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_climb_00": {
+   "frame": {
+    "x": 229,
+    "y": 448,
+    "w": 181,
+    "h": 186
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 35,
+    "w": 181,
+    "h": 186
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_climb_01": {
+   "frame": {
+    "x": 456,
+    "y": 448,
+    "w": 171,
+    "h": 209
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 27,
+    "y": 12,
+    "w": 171,
+    "h": 209
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_climb_02": {
+   "frame": {
+    "x": 683,
+    "y": 448,
+    "w": 101,
+    "h": 221
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 62,
+    "y": 0,
+    "w": 101,
+    "h": 221
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_attack_00": {
+   "frame": {
+    "x": 910,
+    "y": 448,
+    "w": 125,
+    "h": 139
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 50,
+    "y": 82,
+    "w": 125,
+    "h": 139
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_attack_01": {
+   "frame": {
+    "x": 1137,
+    "y": 448,
+    "w": 199,
+    "h": 140
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 13,
+    "y": 81,
+    "w": 199,
+    "h": 140
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_attack_02": {
+   "frame": {
+    "x": 1364,
+    "y": 448,
+    "w": 146,
+    "h": 133
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 39,
+    "y": 88,
+    "w": 146,
+    "h": 133
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_magic_00": {
+   "frame": {
+    "x": 1591,
+    "y": 448,
+    "w": 180,
+    "h": 135
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 86,
+    "w": 180,
+    "h": 135
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_magic_01": {
+   "frame": {
+    "x": 2,
+    "y": 671,
+    "w": 164,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 30,
+    "y": 85,
+    "w": 164,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_magic_02": {
+   "frame": {
+    "x": 229,
+    "y": 671,
+    "w": 222,
+    "h": 151
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 70,
+    "w": 222,
+    "h": 151
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_hurt_00": {
+   "frame": {
+    "x": 456,
+    "y": 671,
+    "w": 119,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 91,
+    "w": 119,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_hurt_01": {
+   "frame": {
+    "x": 683,
+    "y": 671,
+    "w": 112,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 56,
+    "y": 101,
+    "w": 112,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_hurt_02": {
+   "frame": {
+    "x": 910,
+    "y": 671,
+    "w": 83,
+    "h": 127
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 71,
+    "y": 94,
+    "w": 83,
+    "h": 127
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_hurt_03": {
+   "frame": {
+    "x": 1137,
+    "y": 671,
+    "w": 96,
+    "h": 127
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 64,
+    "y": 94,
+    "w": 96,
+    "h": 127
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_sleep": {
+   "frame": {
+    "x": 1364,
+    "y": 671,
+    "w": 145,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 40,
+    "y": 101,
+    "w": 145,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_stretch": {
+   "frame": {
+    "x": 1591,
+    "y": 671,
+    "w": 181,
+    "h": 145
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 76,
+    "w": 181,
+    "h": 145
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_groom": {
+   "frame": {
+    "x": 2,
+    "y": 894,
+    "w": 116,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 54,
+    "y": 75,
+    "w": 116,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_look_up": {
+   "frame": {
+    "x": 229,
+    "y": 894,
+    "w": 119,
+    "h": 149
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 72,
+    "w": 119,
+    "h": 149
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_look_down": {
+   "frame": {
+    "x": 456,
+    "y": 894,
+    "w": 102,
+    "h": 142
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 61,
+    "y": 79,
+    "w": 102,
+    "h": 142
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_sit": {
+   "frame": {
+    "x": 683,
+    "y": 894,
+    "w": 104,
+    "h": 148
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 60,
+    "y": 73,
+    "w": 104,
+    "h": 148
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_sit_wag": {
+   "frame": {
+    "x": 910,
+    "y": 894,
+    "w": 125,
+    "h": 145
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 50,
+    "y": 76,
+    "w": 125,
+    "h": 145
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  },
+  "miyu_curl": {
+   "frame": {
+    "x": 1137,
+    "y": 894,
+    "w": 136,
+    "h": 102
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 119,
+    "w": 136,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 225,
+    "h": 221
+   }
+  }
+ },
+ "meta": {
+  "image": "miyu_atlas.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1818,
+   "h": 1117
+  },
+  "scale": "1"
+ }
+}

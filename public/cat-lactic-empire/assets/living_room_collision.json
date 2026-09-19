@@ -1,0 +1,77 @@
+{
+  "image": "living_room_bg.png",
+  "bg_size": [
+    1528,
+    447
+  ],
+  "note": "Coordinates are in living_room_bg.png pixel space. Scale them by the same factor you scale the bg to fill the canvas. Platforms are thin top-surface bars: cat lands on y, walks along x..x+w.",
+  "floor_y": 388,
+  "platforms": [
+    {
+      "name": "floor",
+      "x": 0,
+      "y": 388,
+      "w": 1528
+    },
+    {
+      "name": "cat_tree_top",
+      "x": 15,
+      "y": 48,
+      "w": 107
+    },
+    {
+      "name": "cat_tree_perch",
+      "x": 95,
+      "y": 102,
+      "w": 83
+    },
+    {
+      "name": "cat_tree_condo",
+      "x": 25,
+      "y": 233,
+      "w": 163
+    },
+    {
+      "name": "bookshelf_top",
+      "x": 192,
+      "y": 42,
+      "w": 120
+    },
+    {
+      "name": "couch",
+      "x": 378,
+      "y": 202,
+      "w": 324
+    },
+    {
+      "name": "coffee_table",
+      "x": 500,
+      "y": 315,
+      "w": 248
+    },
+    {
+      "name": "tv_stand",
+      "x": 790,
+      "y": 246,
+      "w": 295
+    },
+    {
+      "name": "wall_shelf",
+      "x": 848,
+      "y": 50,
+      "w": 167
+    },
+    {
+      "name": "side_table",
+      "x": 1335,
+      "y": 252,
+      "w": 167
+    }
+  ],
+  "tv_zone": {
+    "x": 812,
+    "y": 100,
+    "w": 198,
+    "h": 112
+  }
+}

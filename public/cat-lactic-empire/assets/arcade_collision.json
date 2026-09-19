@@ -1,0 +1,97 @@
+{
+  "image": "arcade_bg.png",
+  "bg_size": [
+    1536,
+    1024
+  ],
+  "floor_y": 880,
+  "note": "Coords in arcade_bg.png pixel space; scale platforms by the same factor as the bg. Estimates read off the art - verify against arcade_collision_preview.png and nudge in-engine.",
+  "platforms": [
+    {
+      "name": "floor",
+      "x": 0,
+      "y": 880,
+      "w": 1536
+    },
+    {
+      "name": "cat_tree_top",
+      "x": 40,
+      "y": 430,
+      "w": 140
+    },
+    {
+      "name": "cat_tree_mid",
+      "x": 175,
+      "y": 505,
+      "w": 147
+    },
+    {
+      "name": "cat_tree_perch",
+      "x": 225,
+      "y": 562,
+      "w": 97
+    },
+    {
+      "name": "cat_tree_condo",
+      "x": 55,
+      "y": 618,
+      "w": 200
+    },
+    {
+      "name": "cat_tree_step",
+      "x": 175,
+      "y": 715,
+      "w": 147
+    },
+    {
+      "name": "shelf",
+      "x": 338,
+      "y": 598,
+      "w": 140
+    },
+    {
+      "name": "couch",
+      "x": 852,
+      "y": 672,
+      "w": 448
+    },
+    {
+      "name": "coffee_table",
+      "x": 795,
+      "y": 832,
+      "w": 265
+    },
+    {
+      "name": "stool",
+      "x": 1368,
+      "y": 788,
+      "w": 110
+    }
+  ],
+  "cabinets": [
+    {
+      "name": "cosmic_chase",
+      "x": 530,
+      "y": 485,
+      "w": 160,
+      "h": 180,
+      "game": "space shooter"
+    },
+    {
+      "name": "space_claw",
+      "x": 700,
+      "y": 485,
+      "w": 175,
+      "h": 180,
+      "game": "claw grab"
+    },
+    {
+      "name": "felinia_fighter",
+      "x": 888,
+      "y": 485,
+      "w": 184,
+      "h": 180,
+      "game": "1v1 fighter"
+    }
+  ]
+}
